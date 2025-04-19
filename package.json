@@ -1,0 +1,33 @@
+{
+  "name": "parabank-playwright-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for ParaBank (parabank.parasoft.com) covering bill payments, account creation, and loan applications",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:bill-pay": "playwright test --grep @bill-pay",
+    "test:accounts": "playwright test --grep @accounts",
+    "test:loans": "playwright test --grep @loans",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://parabank.parasoft.com",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
