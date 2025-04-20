@@ -1,0 +1,17 @@
+# Playwright ignores
+/artifacts/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/downloads/
+/screenshots/
+/videos/
+/playwright-*.trace/
+
+# Node ignores
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local

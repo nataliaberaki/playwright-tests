@@ -17,15 +17,12 @@
     "prepare": "npx playwright install --with-deps"
   },
   "dependencies": {
-    "@playwright/test": "^1.42.1",
     "dotenv": "^16.4.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "typescript": "^5.3.3",
-    "eslint": "^8.56.0",
-    "@typescript-eslint/parser": "^7.0.1",
-    "@typescript-eslint/eslint-plugin": "^7.0.1"
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^20.17.30",
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=18.0.0"
