@@ -3,7 +3,7 @@
 Automated UI tests for [ParaBank](https://parabank.parasoft.com) using Playwright.  For the tests to work the account needs to be created and logged in beforehand.
 Tests cover: account creation, bill payments, loan applications, and customer support flows.
 
-## 🧪 Test Coverage
+## Test Coverage
 - **Account Management**  
   ✓ New checking/savings accounts  
   ✓ Account balance verification  
@@ -20,12 +20,12 @@ Tests cover: account creation, bill payments, loan applications, and customer su
   ✓ Contact form submissions  
   ✓ FAQ navigation  
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Playwright v1.42+
 - TypeScript
 - GitHub Actions (CI/CD)
 
-## 🚀 Getting Started
+## Getting Started
 ```bash
 # 1. Clone repository
 git clone https://github.com/your-username/parabank-tests.git
