@@ -1,6 +1,6 @@
 # 🏦 ParaBank Test Automation
 
-Automated UI tests for [ParaBank](https://parabank.parasoft.com) using Playwright.  For the tests to work the account needs to be logged in beforehand.
+Automated UI tests for [ParaBank](https://parabank.parasoft.com) using Playwright.  For the tests to work the account needs to be created and logged in beforehand.
 Tests cover: account creation, bill payments, loan applications, and customer support flows.
 
 ## 🧪 Test Coverage
